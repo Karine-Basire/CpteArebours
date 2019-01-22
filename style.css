@@ -1,0 +1,62 @@
+body{
+  margin:0px;
+  background-image: radial-gradient(ellipse at center, white, blue);
+}
+@font-face {
+  font-family: 'quadranta';
+  src: url('quadranta.eot?') format('eot'),
+     url('quadranta.otf') format('truetype'),
+     url('quadranta.woff') format('woff'),
+     url('quadranta.svg#QuadrantaBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  }
+p{
+  padding-left: 300px;
+  font-family: 'Monoton', cursive;
+  font-size: 5em;
+  color: #ed0000;
+}
+form {
+  padding: 30px 0 0 400px;
+}
+input {
+  width: 240px;
+  height: 150px;
+  border-radius: 20px;
+  text-align:center;
+  border:none;
+  padding-top: 50px;
+}
+div input{
+  font-size: 5em;
+  border:none;
+  background: rgba(255,255,255,0);
+  font-weight: bold;
+}
+div input:first-child{
+ color: #00FF00;
+}
+div input:nth-child(2){
+ color: #ed0000;
+}
+div input:nth-child(3){
+ color: #00FF00;
+}
+section input{
+  font-size: 3em;
+  text-transform: uppercase;
+  font-family: 'quadranta';
+  border:none;
+  background: rgba(255,255,255,0);
+  font-weight: bold;
+}
+section input:nth-child(1){
+ color: #ed0000;
+}
+section input:nth-child(2){
+ color: #58D68D  ;
+}
+section input:nth-child(3){
+ color: #ed0000;
+}
